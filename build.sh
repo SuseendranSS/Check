@@ -1,4 +1,9 @@
 echo "Building the project..."
+
+# Ensure pip is installed
+python3.9 -m ensurepip --upgrade
+python3.9 -m pip install --upgrade pip
+
 python3.9 -m pip install -r requirements.txt
 
 echo "Make Migration..."
